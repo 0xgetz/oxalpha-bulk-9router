@@ -1,0 +1,11 @@
+# dependencies
+node_modules/
+
+# harvested sessions contain live cookies - never commit them
+accounts.json
+session.json
+
+# runtime
+*.log
+.DS_Store
+/tmp/

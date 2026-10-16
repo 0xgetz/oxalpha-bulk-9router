@@ -1,0 +1,10 @@
+{
+  "modelPrefix": "oxalpha",
+  "port": 8790,
+  "host": "127.0.0.1",
+  "accountsFile": "accounts.json",
+  "concurrency": 2,
+  "headless": true,
+  "cdpUrl": null,
+  "chromePath": null
+}

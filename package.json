@@ -1,0 +1,18 @@
+{
+  "name": "oxalpha-bulk-9router",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bulk-create Ox Alpha (oxalpha.com) anonymous sessions and serve them as an OpenAI-compatible pool wired into 9Router. Zero dependencies.",
+  "main": "src/adapter.js",
+  "bin": { "oxalpha-bulk": "src/cli.js" },
+  "scripts": {
+    "create": "node src/cli.js create",
+    "list": "node src/cli.js list",
+    "adapter": "node src/cli.js adapter",
+    "connect": "node src/cli.js connect",
+    "test": "node src/cli.js test"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["oxalpha", "9router", "openai-compatible", "bulk", "browser-automation", "cdp"],
+  "license": "MIT"
+}
